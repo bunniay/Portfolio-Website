@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!---NAVBAR-->
+    <nav>
+        <div class="left">
+            <a href="/"> Michelle Lin</a>
+        </div>
+        <div class="right">
+            <a href="https://github.com/bunniay" target="_blank" ref="noopenernoreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>   
+            <a href="https://bunniay.itch.io/" target="_blank" ref="noopenernoreferrer">
+                <i class="fa-brands fa-itch-io"></i>
+                <span>Itch.io</span>
+            <a href="mailto:bunniaybb@gmail.com">
+                    <i class="fa-solid fa-envelope"></i></i>
+                    <span>Email</span>
+            </a>         
+        </div>
+    </nav>
+    <main>
+        <!---SECTION 1: Hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hey it's Michelle!</h2>
+                <p>I'm a undergraduate student current majoring in Design and Technology at Parsons New School.
+                    So far everyone's been pretty nice! I really like to draw and I'm fascinated with DnD games,
+                    I love FPS games and I love storytelling games, I also like making animations and character designs.
+                </p>
+                <div class="links">
+                    <a href="#p5js">
+                        <i class="fa-solid fa-code"></i>
+                        <span>P5.JS</span>
+                    </a>
+                    <a href="#hobbies">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Hobbies</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot">
+                <img src="headshot.jpg" alt="michelle lin headshot">
+            </div>
+
+        </section>
+        <!---SECTION 2: Skills-->
+        <section id="p5js" class="p5js-section">
+            <h2>P5.JS Work</h2>
+            <div class="text">
+                Some work I've down on the program p5.js, it's a very good program for fun coding
+                and in general really good for learning espcially people who just started learning.
+            </div>
+
+            <div class="links">
+                    <a href="https://editor.p5js.org/linm557/sketches/iHjbma3Hx" target="_blank" ref="noopenernoreferrer">
+                    <img src="lily1.png" alt="first project">
+                    <span>Lost and Found</span>
+                    </a>
+                    <a href="https://editor.p5js.org/linm557/full/ZAokNJlLn" target="_blank" ref="noopenernoreferrer">
+                    <img src="lily2.webp" alt="second project">
+                   <span>Form Generator</span>
+                    </a>
+                   <a href="https://editor.p5js.org/linm557/sketches/bqIpf8T9x" target="_blank" ref="noopenernoreferrer">
+                    <img src="lily3.png" alt="third project">
+                   <span>Experimental Clock</span>
+                   </a>
+                   <a href="https://editor.p5js.org/linm557/sketches/C42kVszJb" target="_blank" ref="noopenernoreferrer">
+                    <img src="lily4.png" alt="fourth project">
+                   <span>Exquisite Corpse</span>
+                   </a>
+                   <a href="https://editor.p5js.org/linm557/sketches/M_s-VwAEj" target="_blank" ref="noopenernoreferrer">
+                    <img src="lily5.webp" alt="fifth project">
+                   <span>Optical Illusions</span>
+                   </a>
+                   <a href="https://editor.p5js.org/linm557/sketches/vDrQkObrp" target="_blank" ref="noopenernoreferrer">
+                    <img src="lily6.webp" alt="sixth project">
+                   <span>Data Portrait</span>
+                   </a>
+            </div>
+        </section>
+        <!---SECTION 3: Hobbies-->
+        <section id="hobbies" class="hobbies-section">
+            <h2>Hobbies</h2>
+            <div class="group">
+                <div class="person-detail"></div>
+                <img src="terri.jpg" alt="art">
+                <p>Credits for Art</p>
+                <p>Thank Terri for this lovely image</p>
+                <div class="text">
+                    I tend to do alot of art (for myself), I like making character designs and just never extending on that. 
+                    I also like gaming, story games help a lot for me to create ideas to new game that I want to make in the future.
+                    I also like singing and cooking but it's not something I would do  professionally. 
+                    I like content creating too, I love editing videos so I sometimes would do that for fun.
+                </div>
+            </div>
+        </section>
+        <!---SECTION 4: Contacts-->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                    You can contact me here if you like, don't actually contact that me that might scare me.
+                </div>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id ="name">
+                    <label for="email">Email</label>
+                    <input type="text" id ="email">
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
